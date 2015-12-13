@@ -34,7 +34,6 @@ To run the Django server and use the **Django Rest Framework (DRF)** browsable A
 16. After authentication, you can upload Image Targets, 3D Object Targets and Text Targets.
 
 There are two apps 
-
 1. **authenticateclients**
 
 - `authenticateclients` handles the authentication of the client uploaders.
@@ -54,7 +53,6 @@ But once users have been created, they can upload and modify targets.
 - To see list of all UploaderClients ( only if you are superuser ) , visit `127.0.0.1:8000/uploaderclient/`
 To see detail of an individual UploaderClient ( if you are authenticated ) , visit `127.0.0.1:8000/uploaderclient/<id>/`
 - `Permissions` to view and access different parts of the API and permissions for not safe methods like `DELETE` have been created.
-
 2. **clientupload**
 
 - `clientupload` handles the uploading of relevant data by authenticated UploaderClients.
