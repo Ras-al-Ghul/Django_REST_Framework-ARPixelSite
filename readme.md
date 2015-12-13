@@ -13,24 +13,24 @@ To run the Django server and use the **Django Rest Framework (DRF)** browsable A
 3. `CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';` to create new user
 4. `GRANT ALL PRIVILEGES ON dbname . * TO 'newuser'@'localhost';` to grant permissions
 5. Edit the database settings in the `settings.py` file to reflect the above changes.
-6. create a **Python3** virtual env
+6. Create a **Python3** virtual env
    `virtualenv -p python3 envname`
-7. activate the virtual env
+7. Activate the virtual env
    `source envname/bin/activate` if envname is in current directory.
-8. change into the ARPixelSite directory
+8. Change into the ARPixelSite directory
    `cd ARPixelSite`
-9. install requirements and dependencies (some of them might not be essential and can be deleted from the requirements.txt file especially if errors occur)
+9. Install requirements and dependencies (some of them might not be essential and can be deleted from the requirements.txt file especially if errors occur)
 	`pip install -r requirements.txt`
 10. make migrations
    `python manage.py makemigrations`
 11. migrate
    `python manage.py migrate`
-12. create a superuser
+12. Create a superuser
    `python manage.py createsuperuser`
-13. start the server
+13. Start the server
    `python manage.py runserver`
-14. visit `127.0.0.1:8000/admin` on your web browser and create some users to start with
-15. visit `127.0.0.1:8000` to login and start using the DRF's browsable API
+14. Visit `127.0.0.1:8000/admin` on your web browser and create some users to start with
+15. Visit `127.0.0.1:8000` to login and start using the DRF's browsable API
 16. After authentication, you can upload Image Targets, 3D Object Targets and Text Targets.
 
 There are two apps 
