@@ -33,7 +33,8 @@ To run the Django server and use the **Django Rest Framework (DRF)** browsable A
 15. Visit `127.0.0.1:8000` to login and start using the DRF's browsable API
 16. After authentication, you can upload Image Targets, 3D Object Targets and Text Targets.
 
-There are two apps 
+There are two apps
+
 1. **authenticateclients**
 
 - `authenticateclients` handles the authentication of the client uploaders.
