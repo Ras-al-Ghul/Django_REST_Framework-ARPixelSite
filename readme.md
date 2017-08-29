@@ -1,4 +1,4 @@
-#ARPixelSite Backend
+# ARPixelSite Backend
 
 **This Project consists of a set of serialized API endpoints for the website dashboard of ARPixel app.**
 
